@@ -1,0 +1,55 @@
+body{
+    background-color:lightblue;
+    font-family: "Verdana";
+    font-size: x-large;
+}
+
+h1{ /* Название разделов */
+    color: darkgreen; 
+    text-align: left;
+    font-size: 48px;
+}
+
+h2{ /* Основной текст */
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+h3{ /* Название модификаций */
+    color: black;
+    text-align: left; 
+    font-size: 30px;    
+}
+
+h4{ /* Разделы в галерее */
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{ 
+    text-align: left;
+    font-weight: normal;
+    text-indent: 50px;
+    font-size: 30px;
+}
+
+a { 
+    text-decoration: none;
+    color: blue; /* Цвет ссылки */
+}
+
+a:hover {
+    text-decoration: underline; /* Убираем подчеркивание при наведении */
+    color:brown; /* Изменяем цвет при наведении */
+}
+
+th{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
